@@ -1,0 +1,5 @@
+I failed at an implementation of branch and bound because my search space was all possible strings. Which gives a search space of
+alphabet_size ** string_length = 5 ** 70 = 10 ** 48
+But i should have used different alignment indexes, which would have given me a search space of
+length ** lines = 50 ** 1000000 = omfg large
+Damnit

@@ -1,0 +1,20 @@
+What non-brute force algorithm solves task 2?
+
+Go through each slide in the algorithm.
+Write down a report from each slide of the potential algorithms.
+
+Introduction:
+NO - Longest common subsequence - Given the longest common subsequence, doesn't help you with a prefix-suffix match.
+NO - Dynamic Programming - Cannot conceive of an optimal subproblem property.
+
+Alignment:
+Just Dynamic Programming again.
+
+Heuristic Alignment / statistical analysis:
+Hmm, k-mer dot plots looks interesting.
+No, it is not. It is not faster than brute force.
+
+Hmm, l-mer filtration looks interesting.
+Nope, hopeless.
+
+
